@@ -760,6 +760,7 @@ a:hover {
 }
 
 .hero .hero-content {
+  margin-top: 15%;
   text-align: center;
   position: absolute;
 }
