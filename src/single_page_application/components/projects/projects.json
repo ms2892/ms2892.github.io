@@ -1,0 +1,28 @@
+{
+    "projectData":[
+        {
+            "id":1,
+            "name":"Thesis",
+            "description":"Nearest neighbour value function for chemical retrosynthesis. This project aimed around researching a value function derived from split heuristic for partial structural similarity.",
+            "image":"assets/p1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Image Similarity Model",
+            "description":"This model uses Representation Learning to group similar images in a N dimensional space and classify the images based on their similarity.",
+            "image":"assets/p2.jpg"
+        },
+        {
+            "id":3,
+            "name":"AML Project",
+            "description":"This project was a replication of the paper 'Weight Uncertainty in Neural Networks' with an extension of application on Graph Neural Networks",
+            "image":"assets/p3.jpg"
+        },
+        {
+            "id":4,
+            "name":"Missile Range Predictor",
+            "description":"This project estimates the range of a ballistic missile based on its launch parameters. It uses a Gaussian Process to model the range from a missile simulator.",
+            "image":"assets/p4.jpg"
+        }
+    ]
+}

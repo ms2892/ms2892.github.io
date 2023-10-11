@@ -1,0 +1,136 @@
+.section{
+    padding-top: 15%;
+    font-family: Avenir;
+}
+
+.timeline-container{
+    padding-top:4%;
+}
+
+.section-title{
+    text-align: center;
+    font-size: max(5vw,2.5rem);
+}
+
+.timeline-item{
+    display: flex;
+    padding-top:3%;
+    width: 2px;
+    background-color: #000;
+    
+    font-size: min(4vw,1.1rem);
+    position: relative;
+    left:50%;
+}
+
+.timeline-info{
+    position:absolute;
+    width: 300px;
+}
+
+.timeline-box{
+    position:relative;
+    text-align: justify;
+    border: 2px #000 solid;
+    padding: 10px 30px;
+}
+
+.timeline-box p{
+    width: 400px;
+}
+
+.timeline-item:nth-child(odd) .timeline-info{
+    left:-330px;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-info{
+    left:30px;
+    text-align: left;
+}
+
+.timeline-item:nth-child(odd) .timeline-box{
+    left:30px;
+}
+
+.timeline-item:nth-child(even) .timeline-box{
+    left:-500px;
+}
+
+.timeline-item:nth-last-child(1){
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.timeline-item:before{
+    content:"";
+    position:absolute;
+    left:50%;
+    height:15px;
+    width:15px;
+    transform: translate(-50%,0%);
+    border-radius: 50% 50%;
+    border: 2px #000 solid;
+    background-color: #000;
+}
+
+.section-title{
+    letter-spacing: 0.4rem;
+    font-family: Avenir;
+}
+
+a{
+    color:black;
+}
+
+@media screen and (max-width:1350px){
+    .timeline-box{
+        width:300px;
+    }
+    .timeline-box p{
+        width: 300px;
+    }
+    .timeline-item:nth-child(odd) .timeline-info{
+        left:-330px;
+        text-align: right;
+    }
+    .timeline-item:nth-child(even) .timeline-box{
+        left:-400px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .timeline-item{
+        display: block;
+        left:3%;
+        padding-bottom: 10%;
+    }
+    .timeline-item:nth-child(odd) .timeline-info{
+        left:30px;
+        text-align: left;
+    }
+    .timeline-item:nth-child(even) .timeline-info{
+        left:30px;
+        text-align: left;
+    }
+    .timeline-item:nth-child(even) .timeline-box{
+        left:30px;
+    }
+    .timeline-info{
+        width: 300px;
+        position: relative;
+    }
+    .timeline-box{
+        width:80vw;
+    }
+    .timeline-box p{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .timeline-box{
+        width: 65vw;
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "projectData":[
+        {
+            "id":1,
+            "name":"FD-YoloV5",
+            "description":"FD-YOLOv5 model efficiently detected safety helmets worn by humans and even differentiated them from various types of other common headgears.",
+            "image":"assets/pub1.jpg"
+        },
+        {
+            "id":2,
+            "name":"SCS-Net",
+            "description":"This publication covered the topic of detection of DeepFake videos by using a Time Distributed CNN for prediction from spatial and temporal features",
+            "image":"assets/pub2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Parkinson's Disease Detection",
+            "description":"This publication revolved around using machine learning in detecting parkinson's disease from VGRF from feet and accelerometer data.",
+            "image":"assets/pub3.jpg"
+        }
+    ]
+}

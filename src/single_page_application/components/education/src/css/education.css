@@ -1,0 +1,29 @@
+.education-wrapper{
+    padding-top: 3%;
+    font-size: min(4vw,1.1rem);
+}
+
+.education-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.education-logo{
+    margin-bottom: 10%;
+    height:min(250px,30vw);
+    background-repeat: no-repeat;
+    margin-top:2rem;
+
+}
+
+@media screen and (max-width:700px) {
+    .education-container{
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.skill-group{
+    width: max(22%,200px);
+    display: block;
+    border: 2px solid black;
+    margin-inline:0.25rem;
+    
+    font-size: min(4vw,1.1rem);
+    padding:1rem 1rem;
+    margin-top:0.5rem;
+    text-align: center;
+}
+
+.skill-description{
+    padding-top: 5%;
+}

@@ -1,0 +1,82 @@
+.landing-container{
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+
+.sadiq-image{
+    background:url('../../../../../../public/assets/website_pic.png');
+    height: auto;
+    background-size: cover;
+    border-bottom: 2px solid black;
+    background-repeat: no-repeat;
+    width: 50%;
+}   
+
+.content{
+    text-align: left;
+    width: 50%;
+    padding-left: 5%;
+    font-family: Avenir;
+}
+
+.content-title{
+    font-size:max(5vw,3rem);
+    letter-spacing: 2rem;
+}
+
+.content-body{
+    font-size: min(4vw,1.1rem);
+    text-align: justify;
+}
+
+.arrow-style{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .landing-container{
+        width: 100vw;
+        padding-top: 10%;
+        flex-wrap: wrap;
+        margin-top: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sadiq-image{
+        height: max(30vw,200px);
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        border-bottom: 0px;
+    }
+    .content{
+        padding-left: 0%;
+        width: 50%;
+    }
+
+    .content-title{
+        text-align: center;
+        letter-spacing: min(0.2rem,1rem);
+    }
+    .arrow-style{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .navbar{
+        display:none
+    }
+}
+
+@media screen and (max-width:500px) {
+    .content{
+        width: 80%;
+    }
+}

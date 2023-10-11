@@ -1,0 +1,53 @@
+{
+    "experienceData":[
+        {
+            "id":1,
+            "date":"May 2023 - Present",
+            "role":"Machine Learning Engineer",
+            "company":"Ryff",
+            "description":"Worked on deploying end to end machine learning systems on AWS Batch in Tensorflow and PyTorch using Metaflow and Docker. "
+        },
+        {
+            "id":2,
+            "date":"February 2023 - May 2023",
+            "role":"Freelance Web Developer",
+            "company":"Freelance",
+            "description":"Revamped UI design for UniArk (Deployed at: <a href='https://uniark.org'>https://uniark.org/</a>) which 93% of stakeholders preferred."
+        },
+        {
+            "id":3,
+            "date":"October 2022 - August 2023",
+            "role":"Career Break",
+            "company":"University of Cambridge",
+            "description":"Felt cute, thought of doing a masters in machine learning."
+        },
+        {
+            "id":4,
+            "date":"September 2021 - August 2022",
+            "role":"Project Associate",
+            "company":"RBCDSAI, IIT Madras",
+            "description":"Handled data science and machine learning driven research projects from various companies. Worked on developing a novel algorithm to reduce human biases in datasets"
+        },
+        {
+            "id":5,
+            "date":"May 2021 - September 2021",
+            "role":"Computer Vision Engineer",
+            "company":"Wobot AI",
+            "description":"Implemented bespoke models or pipelines for different use cases using Pytorch and Tensorflow over Triton server"
+        },
+        {
+            "id":6,
+            "date":"June 2020 - September 2022",
+            "role":"Research Student",
+            "company":"Jamia Millia Islamia",
+            "description":"Authored and published 2 research papers in reputed journals. Also guided a team of skilled individuals in research projects and published 1 paper in field of Computer Vision."
+        },
+        {
+            "id":7,
+            "date":"November 2020 - January 2021",
+            "role":"Internship",
+            "company":"MixOrg",
+            "description":"Conducted research on use of AI to improve the success rate of embryo transfer in IVF for humans"
+        }
+    ]
+}

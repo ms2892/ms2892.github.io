@@ -1,0 +1,17 @@
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    
+    font-size: min(4vw,1.1rem);
+}
+
+a{
+    text-decoration: none;
+}
+
+.social-media-icon{
+    margin-inline-end:1.5rem;
+    font-size: 1.5rem;
+}

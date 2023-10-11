@@ -1,0 +1,9 @@
+.skills-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    justify-content: center;
+}

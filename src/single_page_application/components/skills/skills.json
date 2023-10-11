@@ -1,0 +1,117 @@
+{
+    "skills":[
+        {
+            "id":1,
+            "group":"General",
+            "skillName":"Python"
+        },{
+            "id":2,
+            "group":"Machine Learning",
+            "skillName":"Tensorflow"
+        },{
+            "id":3,
+            "group":"Machine Learning",
+            "skillName":"PyTorch"
+        },{
+            "id":4,
+            "group":"Web Development",
+            "skillName":"ReactJS"
+        },{
+            "id":5,
+            "group":"General",
+            "skillName":"Docker"
+        },{
+            "id":6,
+            "group":"General",
+            "skillName":"Numpy"
+        },{
+            "id":7,
+            "group":"Machine Learning",
+            "skillName":"Scikit-Learn"
+        },{
+            "id":8,
+            "group":"Machine Learning",
+            "skillName":"OpenCV"
+        },{
+            "id":9,
+            "group":"Cloud Technologies",
+            "skillName":"Metaflow"
+        },{
+            "id":10,
+            "group":"General",
+            "skillName":"Matplotlib"
+        },{
+            "id":11,
+            "group":"Machine Learning",
+            "skillName":"Keras"
+        },{
+            "id":12,
+            "group":"Cloud Technologies",
+            "skillName":"AWS S3"
+        },{
+            "id":13,
+            "group":"Cloud Technologies",
+            "skillName":"AWS Lambda"
+        },{
+            "id":14,
+            "group":"Cloud Technologies",
+            "skillName":"Terraform"
+        },{
+            "id":15,
+            "group":"Cloud Technologies",
+            "skillName":"AWS EC2"
+        },{
+            "id":16,
+            "group":"Cloud Technologies",
+            "skillName":"Azure"
+        },{
+            "id":17,
+            "group":"General",
+            "skillName":"Git"
+        },{
+            "id":18,
+            "group":"General",
+            "skillName":"Git Workflows"
+        },{
+            "id":19,
+            "group":"General",
+            "skillName":"Agile"
+        },{
+            "id":20,
+            "group":"Cloud Technologies",
+            "skillName":"AWS Batch"
+        },{
+            "id":21,
+            "group":"Cloud Technologies",
+            "skillName":"Kubernetes"
+        },{
+            "id":22,
+            "group":"Web Development",
+            "skillName":"HTML"
+        },{
+            "id":23,
+            "group":"Web Development",
+            "skillName":"JavaScript"
+        },{
+            "id":24,
+            "group":"Web Development",
+            "skillName":"CSS"
+        },{
+            "id":25,
+            "group":"Cloud Technologies",
+            "skillName":"Triton"
+        },{
+            "id":26,
+            "group":"Machine Learning",
+            "skillName":"Nvidia TLK"
+        },{
+            "id":27,
+            "group":"General",
+            "skillName":"SSH"
+        },{
+            "id":28,
+            "group":"General",
+            "skillName":"Linux"
+        }
+    ]
+}
