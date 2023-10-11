@@ -15,28 +15,29 @@ class Home extends React.Component {
         return (
             <div className='homepage-canvas'>
                 <NavBar></NavBar>
-                <Landing></Landing>
                 <section>
+                    <Landing></Landing>
+                </section>
+                <section id='Experience'>
                     <Experience>
                     </Experience>
                 </section>
-                <section>
+                <section id='Skills'>
                     <Skills>
-                        
                     </Skills>
                 </section>
-                <section>
+                <section id='Projects'>
                     <Projects>
                     </Projects>
                 </section>
-                <section>
+                <section id='Publications'>
                     <Publications>
                     </Publications>
                 </section>
-                <section>
+                <section id='Education'>
                     <Education></Education>
                 </section>
-                <section>
+                <section id='Contact'>
                     <Contact></Contact>
                 </section>
             </div>

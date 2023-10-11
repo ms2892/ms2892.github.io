@@ -14,7 +14,6 @@ class Projects extends React.Component {
                         <ProjectItem projectTitle={project.name} projectDescription={project.description} projectImage={project.image}></ProjectItem>  
                     )
                     )}
-                    
                 </div>
             </div>
         );
