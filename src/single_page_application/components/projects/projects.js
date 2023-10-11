@@ -11,7 +11,7 @@ class Projects extends React.Component {
                 <h1 className='section-title'>University Projects</h1>
                 <div className='projects-container'>
                     {projects.projectData.map((project) => (
-                        <ProjectItem projectTitle={project.name} projectDescription={project.description} projectImage={project.image}></ProjectItem>  
+                        <ProjectItem projectTitle={project.name} projectDescription={project.description} projectImage={project.image} projectLink={project.link}></ProjectItem>  
                     )
                     )}
                 </div>
