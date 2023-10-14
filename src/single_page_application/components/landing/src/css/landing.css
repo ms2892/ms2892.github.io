@@ -11,7 +11,7 @@
     background:url('../../../../../../public/assets/website_pic.png');
     height: auto;
     background-size: cover;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000;
     background-repeat: no-repeat;
     width: 50%;
 }   
@@ -78,5 +78,11 @@
 @media screen and (max-width:500px) {
     .content{
         width: 80%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .sadiq-image{
+        filter: invert(1);  
     }
 }

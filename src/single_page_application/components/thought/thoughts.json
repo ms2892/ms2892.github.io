@@ -1,0 +1,64 @@
+{
+    "quotes":[
+        {
+            "quote":"Puff up your chest. Take a deep breath. You're gonna be Okay...",
+            "author":"Ashh Blackwood"
+        },
+        {
+            "quote":"If it's loud in your mind? Just take your time. You're gonna be Okay...",
+            "author":"Ashh Blackwood"
+        },
+        {
+            "quote":"Friend, I pity your poor bleeding heart; and I love you the more because it does so bleed.",
+            "author":"Bram Stoker"
+        },{
+            "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+            "author": "Martin Fowler"
+        },
+        {
+            "quote": "Programs must be written for people to read, and only incidentally for machines to execute.",
+            "author": "Harold Abelson"
+        },
+        {
+            "quote": "Truth can only be found in one place: the code.",
+            "author": "Robert C. Martin"
+        },
+        {
+            "quote": "The best way to predict the future is to invent it.",
+            "author": "Alan Kay"
+        },
+        {
+            "quote": "The most disastrous thing that you can ever learn is your first programming language.",
+            "author": "Alan Kay"
+        },
+        {
+            "quote": "The most important property of a program is whether it accomplishes the intention of its user.",
+            "author": "C.A.R. Hoare"
+        },
+        {
+            "quote": "The best code is no code at all.",
+            "author": "Jeff Atwood"
+        },
+        {
+            "quote": "The only way to do great work is to love what you do.",
+            "author": "Steve Jobs"
+        },
+        {
+            "quote": "The function of good software is to make the complex appear to be simple.",
+            "author": "Grady Booch"
+        },
+        {
+            "quote": "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
+            "author": "Anonymous"
+        },
+        {
+            "quote":"//be nice to the CPU: thread_sleep(1);",
+            "author":"Anonymous"
+        },
+        {
+            "quote":"I would love to change the world, but they won’t give me the source code.",
+            "author":"Anonymous"
+        }
+    ]
+}
+

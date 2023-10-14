@@ -16,7 +16,7 @@
     display: flex;
     padding-top:3%;
     width: 2px;
-    background-color: #000;
+    background-color: var(--border-color);
     
     font-size: min(4vw,1.1rem);
     position: relative;
@@ -31,7 +31,7 @@
 .timeline-box{
     position:relative;
     text-align: justify;
-    border: 2px #000 solid;
+    border: 2px var(--border-color) solid;
     padding: 10px 30px;
 }
 
@@ -70,8 +70,8 @@
     width:15px;
     transform: translate(-50%,0%);
     border-radius: 50% 50%;
-    border: 2px #000 solid;
-    background-color: #000;
+    border: 2px var(--border-color) solid;
+    background-color: var(--border-color);
 }
 
 .section-title{
@@ -80,7 +80,7 @@
 }
 
 a{
-    color:black;
+    color:var(--border-color);
 }
 
 @media screen and (max-width:1350px){

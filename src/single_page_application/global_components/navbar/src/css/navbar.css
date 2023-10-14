@@ -17,4 +17,9 @@
     padding: 0.75rem;
     font-size: 1.1rem;
     font-family:Avenir;
+    transition: 0.2s;
+}
+
+.navbar-list li:hover{
+    border-bottom: 2px solid var(--border-color);
 }

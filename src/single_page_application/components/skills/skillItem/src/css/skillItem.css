@@ -1,7 +1,7 @@
 .skill-group{
     width: max(22%,370px);
     display: block;
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     margin-inline:0.25rem;
     
     font-size: min(4vw,1.1rem);

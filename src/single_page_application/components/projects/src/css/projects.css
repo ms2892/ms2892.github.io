@@ -16,7 +16,7 @@
     margin-inline: 5px;
     margin-top: 0.75rem;
     min-width: 150px;
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     padding: 1%;
     display: block;
     transition: 0.2s;
@@ -29,6 +29,13 @@
 .project-image{
     height: 200px;
     margin-bottom: 5%;
+    filter: grayscale(100%);
+    background-size:cover;
+    transition: 0.2s;
+}
+
+.project-image:hover{
+    filter: grayscale(0%);
 }
 
 .project-description{

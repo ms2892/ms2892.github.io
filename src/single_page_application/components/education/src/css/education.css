@@ -27,3 +27,9 @@
         display: block;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .education-logo{
+        filter: invert(1);
+    }
+}

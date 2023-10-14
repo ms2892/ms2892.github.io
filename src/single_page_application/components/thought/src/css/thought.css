@@ -1,0 +1,19 @@
+.thought-container{
+    width: fit-content;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 15%;
+    display: block;
+    text-align: center;
+}
+
+.thought-message{
+    font-size: max(2vw,1.1rem);
+    font-family: 'Satisfy';
+}
+
+.thought-author{
+    text-align: right;
+    padding-top: 2%;
+    font-size: max(1vw,0.73rem);
+}

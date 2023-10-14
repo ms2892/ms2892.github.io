@@ -9,6 +9,7 @@ import Publications from './components/publications/publications';
 import Education from './components/education/education';
 import Contact from './components/contact/contact';
 import Skills from './components/skills/skills';
+import Thought from './components/thought/thought';
 
 class Home extends React.Component {
     render() {
@@ -17,6 +18,9 @@ class Home extends React.Component {
                 <NavBar></NavBar>
                 <section>
                     <Landing></Landing>
+                </section>
+                <section>
+                    <Thought></Thought>
                 </section>
                 <section id='Experience'>
                     <Experience>

@@ -15,3 +15,27 @@ a{
     margin-inline-end:1.5rem;
     font-size: 1.5rem;
 }
+
+.fa-github{
+    color: var(--border-color);
+}
+
+.fa-github:hover{
+    color:#F05032;
+}
+
+.fa-instagram{
+    color: var(--border-color);
+}
+
+.fa-instagram:hover{
+    color:#E1306C;
+}
+
+.fa-linkedin{
+    color:var(--border-color);
+}
+
+.fa-linkedin:hover{
+    color:#0A66C2;
+}
