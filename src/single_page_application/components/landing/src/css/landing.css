@@ -1,36 +1,38 @@
 .landing-container{
     width: 65%;
     display: flex;
-    justify-content: space-evenly;
     margin: 0 auto;
     margin-top: 12%;
+    justify-content: space-around;
 }
 
 
 .sadiq-image{
     background:url('../../../../../../public/assets/website_pic.png');
     height: auto;
-    background-size: cover;
-    border-bottom: 2px solid #000;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 40%;
 }   
 
 .content{
-    text-align: left;
-    width: 50%;
-    padding-left: 5%;
     font-family: Avenir;
+    text-align: center;
 }
 
 .content-title{
     font-size:max(5vw,3rem);
-    letter-spacing: 2rem;
+    letter-spacing: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 .content-body{
-    font-size: min(4vw,1.1rem);
-    text-align: justify;
+    font-size: min(4vw,1.4rem);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .arrow-style{

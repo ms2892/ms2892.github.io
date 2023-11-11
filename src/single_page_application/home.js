@@ -16,7 +16,7 @@ class Home extends React.Component {
         return (
             <div className='homepage-canvas'>
                 <NavBar></NavBar>
-                <section>
+                <section id='Home'>
                     <Landing></Landing>
                 </section>
                 <section>

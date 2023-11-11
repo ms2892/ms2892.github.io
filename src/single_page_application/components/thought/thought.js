@@ -12,7 +12,7 @@ const Thought = () => {
     return (
         <div className='thought-container'>
             <p className='thought-message'><span>"</span>{thoughtMessage}<span>"</span></p>
-            <p className='thought-author'><i>- {thoughtAuthor}</i></p>
+            <p className='thought-author'>- {thoughtAuthor}</p>
         </div>
     );
 };

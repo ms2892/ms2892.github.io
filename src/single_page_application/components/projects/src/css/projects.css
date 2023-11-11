@@ -24,6 +24,27 @@
 
 .project:hover{
     transform: scale(1.05);
+    background-color: var(--border-color);
+    color: var(--background);
+}
+
+.project:hover .project-image{
+    filter: grayscale(0%);
+}
+
+.project:hover .project-description{
+    background-color: var(--border-color);
+    color: var(--background);
+}
+
+.project:hover .project-body{
+    background-color: var(--border-color);
+    color: var(--background);
+}
+
+.project:hover .project-title{
+    background-color: var(--border-color);
+    color: var(--background);
 }
 
 .project-image{
@@ -31,10 +52,6 @@
     margin-bottom: 5%;
     filter: grayscale(100%);
     transition: 0.2s;
-}
-
-.project-image:hover{
-    filter: grayscale(0%);
 }
 
 .project-description{

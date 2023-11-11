@@ -5,49 +5,101 @@
             "date":"May 2023 - Present",
             "role":"Machine Learning Engineer",
             "company":"Ryff",
-            "description":"Worked on deploying end to end machine learning systems on AWS Batch in Tensorflow and PyTorch using Metaflow and Docker. "
+            "description":"Worked on deploying end to end machine learning systems on AWS Batch in Tensorflow and PyTorch using Metaflow and Docker. ",
+            "company_expand":"Ryff is a cutting-edge technology company that leverages artificial intelligence to seamlessly integrate product animations into various forms of visual content, including movies, television shows, and commercials. Their innovative approach not only involves inserting branded elements into these scenes but also entails a comprehensive AI-driven analysis of the moving imagery. This allows for the strategic placement of brands and products based on a variety of factors. Established in 2018, Ryff is headquartered in Los Angeles, California, positioning itself at the heart of the entertainment industry, where its unique technology is well-suited to cater to the demands of the dynamic and ever-evolving world of visual storytelling and advertising.",
+            "role_expand":"I played central role in the development and maintenance of the company's AI-driven technology for seamless product placement in visual content. This involved creating and fine-tuning machine learning algorithms and models that analyzed movies, TV shows, or commercials, and identified opportunities for product animations within scenes. I worked with data preprocessing, feature engineering, and data annotation, collaborated with cross-functional teams, and ensured the integration of machine learning solutions into production workflows. Continuous performance monitoring, innovation, and scalability optimization are also key responsibilities, making my role vital in achieving accurate and efficient intelligent product placement.",
+            "impact":[
+                "Implemented a pipeline to check whether the given video was compliant with the company's guidelines.",
+                "Implemented a speech recognition machine learning model to detect speech in 99 languages and translate them into English",
+                "Overhauled and optimized an existing image clustering pipeline that reduced the processing time by 84%.",
+                "Contributed in development of CICD pipelines for easy model deployment.",
+                "Architectured a pipeline to use Recognize Anything Model and DINOv2 to increase the number of objects detected in a scene by 60 times.",
+                "Founded a novel pipeline to estimate voxels around a given object in a given scene using Segment Anything Model, VoxelNext and Depth estimation using 1 image",
+                "Deployed end to end models on (on‑prem) K8s and AWS Batch using Metaflow for 75% of the existing workflows",
+                "Spearheaded in standardizing the Logging system for all modules.",
+                "Modularized the prevailing video processing pipeline with a bespoke architecture with 60% faster processing"
+            ]
         },
         {
             "id":2,
             "date":"February 2023 - May 2023",
             "role":"Freelance Web Developer",
             "company":"Freelance",
-            "description":"Revamped UI design for UniArk (Deployed at: <a href='https://uniark.org'>https://uniark.org/</a>) which 93% of stakeholders preferred."
+            "description":"Revamped UI design for UniArk (Deployed at: https://uniark.org/) which 93% of stakeholders preferred.",
+            "company_expand":"Freelancing is a work arrangement where individuals, known as freelancers, offer services to clients on a project basis. They work independently, have flexible schedules, and handle diverse projects in various fields, often remotely. Contracts outline project specifics. Freelancers must manage finances, self-promote, and stay current in their expertise. While it offers autonomy and flexibility, income can be variable, and responsibilities for taxes and self-discipline are high. Freelancing is suited for those valuing independence and having sought-after skills but requires active self-management and professional development.",
+            "role_expand":"As a freelance web developer, I worked independently to create a custom website for a charity organization, exemplifying the role's responsibilities. This involved direct communication with the charity to understand their specific needs and objectives. I used my technical skills in programming languages and frameworks to design and develop a website tailored to their cause. I managed the project from start to finish, ensuring it was delivered within budget and on schedule. Additionally, I took responsibility for maintaining the site's quality, security, and responsiveness, contributing to the charity's online presence and mission. This experience highlighted the autonomy, client interaction, and technical expertise inherent in freelance web development.",
+            "impact":[
+                "Revamped UI design for UniArk (Deployed at: <a href='https://uniark.org'>https://uniark.org/</a>) which 93% of stakeholders preferred",
+                "Developed CICD for easy deployment of webpages",
+                "Modularized elements in website for easy updation of content by the clients."
+            ]
         },
         {
             "id":3,
             "date":"October 2022 - August 2023",
             "role":"Career Break",
             "company":"University of Cambridge",
-            "description":"Felt cute, thought of doing a masters in machine learning."
+            "description":"Felt cute, thought of doing a masters in machine learning.",
+            "company_expand":"The University of Cambridge offers a prestigious Master's degree program in Machine Learning and Machine Intelligence, renowned for academic excellence and cutting-edge research. This interdisciplinary curriculum covers a wide range of topics in machine learning, combining theory and practical applications. Students have opportunities for research projects, benefit from expert faculty, and can leverage industry connections. The program culminates in a thesis or capstone project, allowing students to apply their knowledge to real-world challenges. With its international student community and strong reputation, a Master's degree from Cambridge in Machine Learning opens doors to diverse career opportunities in academia, research, and the tech industry, reflecting the program's high standards and industry demand.",
+            "role_expand":"In my pursuit of career advancement and a deeper understanding of Machine Learning, I made the deliberate decision to take a career break and embark on a Master's degree journey. By choosing this educational path, I am committed to enhancing my domain knowledge, mastering the intricacies of machine learning, and developing a profound expertise in this rapidly evolving field. This dedicated educational endeavor signifies my strong determination to acquire the latest skills and knowledge essential for future career growth. It reflects my commitment to staying at the forefront of technological advancements and contributing significantly to the exciting and transformative world of artificial intelligence and data science.",
+            "impact":[
+                "Researched a novel methodology in reinforcement learning to improve the time taken to find a path in retrosynthesis"
+            ]
         },
         {
-            "id":4,
-            "date":"September 2021 - August 2022",
-            "role":"Project Associate",
-            "company":"RBCDSAI, IIT Madras",
-            "description":"Handled data science and machine learning driven research projects from various companies. Worked on developing a novel algorithm to reduce human biases in datasets"
+            "id": 4,
+            "date": "September 2021 - August 2022",
+            "role": "Project Associate",
+            "company": "RBCDSAI, IIT Madras",
+            "description": "Handled data science and machine learning driven research projects from various companies. Worked on developing a novel algorithm to reduce human biases in datasets",
+            "company_expand": "The Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI) at the Indian Institute of Technology Madras (IIT Madras) is a prominent research and educational institution dedicated to data science and artificial intelligence. RBCDSAI conducts cutting-edge research, collaborates with industry partners, and offers academic programs in these domains. The center hosts workshops, seminars, and conferences to promote knowledge sharing and interdisciplinary collaboration. With a distinguished faculty, state-of-the-art facilities, and global recognition, RBCDSAI is at the forefront of advancing research and innovation in data science and AI. It also supports start-ups, fosters community engagement, and emphasizes ethical and responsible technology use.",
+            "role_expand": "I played central role in the development and maintenance of the company's AI-driven technology for seamless product placement in visual content. This involved creating and fine-tuning machine learning algorithms and models that analyzed movies, TV shows, or commercials, and identified opportunities for product animations within scenes. I worked with data preprocessing, feature engineering, and data annotation, collaborated with cross-functional teams, and ensured the integration of machine learning solutions into production workflows. Continuous performance monitoring, innovation, and scalability optimization are also key responsibilities, making my role vital in achieving accurate and efficient intelligent product placement.",
+            "impact": [
+                "Designed a novel human in the loop learning algorithm that helped in reducing the human biases in datasets that had an improvement of 5% on the benchmark datasets.",
+                "Spearheaded and collaborated 5 machine learning projects for stakeholders that revolved around reinforcement and supervised learning."
+            ]
         },
         {
             "id":5,
             "date":"May 2021 - September 2021",
             "role":"Computer Vision Engineer",
             "company":"Wobot AI",
-            "description":"Implemented bespoke models or pipelines for different use cases using Pytorch and Tensorflow over Triton server"
+            "description":"Implemented bespoke models or pipelines for different use cases using Pytorch and Tensorflow over Triton server",
+            "company_expand":"Wobot AI is a technology company specializing in artificial intelligence solutions for video analytics and surveillance. Based in India, Wobot AI offers innovative software that uses computer vision and machine learning to analyze video feeds and provide actionable insights. Their solutions are designed for various industries, including retail, hospitality, and security, helping businesses enhance safety, efficiency, and customer experiences. Wobot AI's technology can detect anomalies, monitor compliance, and deliver real-time alerts, making it a valuable tool for organizations seeking to leverage AI-powered video analytics for improved decision-making and operational excellence.",
+            "role_expand":"I played central role in the development and maintenance of the company's AI-driven technology for seamless product placement in visual content. This involved creating and fine-tuning machine learning algorithms and models that analyzed movies, TV shows, or commercials, and identified opportunities for product animations within scenes. I worked with data preprocessing, feature engineering, and data annotation, collaborated with cross-functional teams, and ensured the integration of machine learning solutions into production workflows. Continuous performance monitoring, innovation, and scalability optimization are also key responsibilities, making my role vital in achieving accurate and efficient intelligent product placement.",
+            "impact":[
+                "Developed a Ticket grading feature for the clients to judge the authenticity of a false positive.",
+                "Implemented bespoke models or pipelines for different use cases using Pytorch, Tensorflow and ONNX over Triton servers with average model processing time of 120 milliseconds."
+            ]
         },
         {
             "id":6,
             "date":"June 2020 - September 2022",
             "role":"Research Student",
             "company":"Jamia Millia Islamia",
-            "description":"Authored and published 2 research papers in reputed journals. Also guided a team of skilled individuals in research projects and published 1 paper in field of Computer Vision."
+            "description":"Authored and published 2 research papers in reputed journals. Also guided a team of skilled individuals in research projects and published 1 paper in field of Computer Vision.",
+            "company_expand":"Jamia Millia Islamia University, located in New Delhi, India, is a renowned public central university established in 1920. Known for its commitment to inclusivity and secular values, it offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines. The university promotes academic excellence, social justice, and cultural diversity. With a focus on research and innovation, Jamia Millia Islamia has made significant contributions to education, humanities, social sciences, and technology. It is recognized for fostering a vibrant academic environment that encourages holistic development and a spirit of inquiry among its students.",
+            "role_expand":"A research student in machine learning, I played a pivotal role by conducting a thorough literature review, formulating precise research questions, and designing experiments. Responsibilities encompassed data collection, algorithm development, and implementation using programming skills. Evaluation and analysis of model performance, coupled with meticulous documentation, were essential.",
+            "impact":[
+                "Authored and published 2 research papers in reputed journals like Springer IJFS and TSP CMC (First Author).",
+                "Guided a team of skilled individuals in research projects and published 1 paper in field of Computer Vision."
+
+            ]
         },
         {
             "id":7,
             "date":"November 2020 - January 2021",
             "role":"Internship",
             "company":"MixOrg",
-            "description":"Conducted research on use of AI to improve the success rate of embryo transfer in IVF for humans"
+            "description":"Conducted research on use of AI to improve the success rate of embryo transfer in IVF for humans",
+            "company_expand":"MixORG pioneers digital media innovation, empowering organizations and brands to excel through strategic, creative, and technical mastery in the dynamic digital realm. We specialize in unleashing the transformative capabilities of cutting-edge technology, ensuring our clients navigate and thrive in today's rapidly evolving digital landscape. With a commitment to innovation, MixORG elevates businesses by seamlessly integrating forward-thinking solutions that amplify brand presence, engage audiences, and drive unparalleled success in the digital sphere.",
+            "role_expand":"As a Deep Learning Research Intern at MixORG, I leveraged cutting-edge techniques in artificial intelligence. Collaborating with our dynamic team, I contributed to the development of innovative algorithms and models. My role involved researching and implementing state-of-the-art deep learning methodologies.",
+            "impact":[
+                "Conducted research on use of AI to improve the success rate of embryo transfer in IVF for humans (15% improvement in accuracy).",
+                "Created a synthetic image generation application using StyleGAN to enhance the existing dataset (10% difference in accuracies).",
+                "Developed a Heat map generation model for inferences learnt by the model using Grad CAM (63% of stakeholders preferred the product with this feature)."
+
+            ]
         }
     ]
 }

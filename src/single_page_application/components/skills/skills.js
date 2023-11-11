@@ -32,7 +32,7 @@ class Skills extends React.Component {
         })    
 
         return (
-            <div>
+            <div className='skill-box'>
                 <h1 className='section-title'>Skills</h1>
 
                 <div className='skills-container'>

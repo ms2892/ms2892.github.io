@@ -1,0 +1,16 @@
+.experience-display-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.experience-display-box h1{
+    margin-top: 8%;
+}
+
+.experience-display-box p{
+    text-align: justify;
+}
+
+.experience-display-achievements-list-group{
+    padding-bottom: 8%;
+}

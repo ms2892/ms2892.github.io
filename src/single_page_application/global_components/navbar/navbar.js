@@ -1,25 +1,45 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './src/css/navbar.css'
 
-class NavBar extends React.Component {
-    render() {
-        return (
-            <div className='navbar'>
-                <ul className='navbar-list'>
-                    <li><a href='#Home'>Home</a></li>
-                    <li><a href='#Experience'>Experience</a></li>
-                    <li><a href='#Skills'>Skills</a></li>
-                    <li><a href='#Projects'>Projects</a></li>
-                    <li><a href='#Publications'>Publications</a></li>
-                    <li><a href='#Education'>Education</a></li>
-                    <li><a href='Mohd_Sadiq_Resume.pdf'>Resume</a></li>
-                    <li><a href='#Contact'>Contact</a></li>
-                </ul>
-            </div>
-        );
-    }
+function NavBar(){
+
+    return (
+        <div className='navbar'>
+            <ul className='navbar-list'>
+                <li onClick={() => {
+                    var element = document.getElementById('Home');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Home</li>
+                <li onClick={() => {
+                    var element = document.getElementById('Experience');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Experience</li>
+                <li onClick={() => {
+                    var element = document.getElementById('Skills');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Skills</li>
+                <li onClick={() => {
+                    var element = document.getElementById('Projects');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Projects</li>
+                <li onClick={() => {
+                    var element = document.getElementById('Publications');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Publications</li>
+                <li onClick={() => {
+                    var element = document.getElementById('Education');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Education</li>
+                <li><a href='Mohd_Sadiq_Resume.pdf'>Resume</a></li>
+                <li onClick={() => {
+                    var element = document.getElementById('Contact');
+                    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+                }}>Contact</li>
+            </ul>
+        </div>
+    );
 }
+
 
 
 export default NavBar;

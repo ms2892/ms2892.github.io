@@ -17,7 +17,6 @@
     padding-top:3%;
     width: 2px;
     background-color: var(--border-color);
-    
     font-size: min(4vw,1.1rem);
     position: relative;
     left:50%;
@@ -33,6 +32,28 @@
     text-align: justify;
     border: 2px var(--border-color) solid;
     padding: 10px 30px;
+    transition: 0.2s;
+}
+
+.timeline-box:hover{
+    transform: scale(1.04);
+    color:var(--background);
+    background-color: var(--border-color);
+}
+
+.timeline-box:hover h3{
+    color:var(--background);
+    background-color: var(--border-color);
+}
+
+.timeline-box:hover h4{
+    color:var(--background);
+    background-color: var(--border-color);
+}
+
+.timeline-box:hover p{
+    color:var(--background);
+    background-color: var(--border-color);
 }
 
 .timeline-box p{

@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './src/css/publications.css'
-import Projects from '../projects/projects';
 import ProjectItem from '../projects/components/projectItem';
 import projects from './projects.json'
 

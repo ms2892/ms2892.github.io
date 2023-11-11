@@ -10,7 +10,7 @@
         {
             "id":2,
             "name":"SCS-Net",
-            "description":"This publication covered the topic of detection of DeepFake videos by using a Time Distributed CNN for prediction from spatial and temporal features",
+            "description":"This publication revolved around developing a lightweight model to addresses deployability and incorrect mask cases for COVID-19.",
             "image":"assets/pub2.jpg",
             "link":"https://doi.org/10.1016/j.procs.2023.01.165"
         },

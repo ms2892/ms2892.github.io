@@ -1,5 +1,7 @@
 :root{
   --border-color: black;
+  --background:white;
+  --modal-background: rgba(0,0,0,0.6)
 }
 
 * {
@@ -11,6 +13,8 @@
 @media (prefers-color-scheme: dark) {
   :root{
     --border-color:white;
+    --background:rgb(30, 32, 46);
+    --modal-background: rgba(255,255,255,0.1);
   }
   
   *{
