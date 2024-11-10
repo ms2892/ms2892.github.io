@@ -1,0 +1,14 @@
+.cipher{
+    width: 100%;
+    text-align: center;
+}
+
+.encoded-text{
+    width: 60%;
+    margin: auto;
+}
+
+.cipher-output{
+    width: 60%;
+    margin: auto;
+}
