@@ -46,7 +46,7 @@ function Cipher(){
             <br />
 
             <p className='encoded-text'>
-                The Caesar Cipher is a type of substitution cipher where each letter in the plaintext is 'shifted' a certain number of places down the alphabet. For the key you may want to checkout the box again :P.
+                The Caesar Cipher is a type of substitution cipher where each letter in the plaintext is 'shifted' a certain number of places down the alphabet. 
             </p>
 
             <br />

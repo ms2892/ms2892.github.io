@@ -8,7 +8,7 @@ function Vernam(){
     const [key, setKey] = useState();
 
 
-    let originalDecodedText = "It was somewhere around here where we had breakfast. It was the sweetest thing anyone had ever done for me. I felt way too special haha. And it was here where I did say, I would love to cook you breakfast someday. Well we managed to see through that promise together :P.";
+    let originalDecodedText = "It was through breakfast where our story truly began. It was the morning after one of life's sweetest surprises - your kind words, and that lovely breakfast spread all came together to make my heart skip a beat. I felt like the luckiest person alive, like I'd stumbled upon a treasure trove of happiness. And as we sat there, savoring each bite and every moment, I knew right then and there that I wanted to spend many more mornings just like this with you. The memory of that special day still warms my heart, and the promise I made to cook you breakfast someday has only grown stronger with time. It's a promise I intend to keep. In your eyes, I see it hiding a depth of you who I wish to explore more and more. And in your smile, I find my own happiness, my own reason for being. You make everything better just by being there. So here's to many more breakfasts together, aşkım... and to a lifetime of making memories that'll warm our hearts like that very first morning we shared.";
     const encodedText = "tg8Sw d7A464qZYorZGMCkjt7wHiV5PL5eQHc3IK6qAK yHLwllZwFPj5GVq xDP2jrzJ98kWqnUODwGMKgRyHOAdglR0gm3h HZcnU4l1lQwQxMVBZuQA1I9F8d D FeEr G6nTareoTi7JzGxIzDg3PTwgU gzzKJ6vG3W TXbob7clAJF7snem8AcI6Luc o8I Wz1JuXKlOwHwTzMCCqvAhF i1NmVALTqQvlcfHnJV XcaWAw ony39WPC7mN lVJX NUOY9r"
 
     function handleKeyChange(event){
