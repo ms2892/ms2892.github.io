@@ -2,76 +2,111 @@ import React, {useState} from 'react';
 import "./src/cipher.css"
 // import './Poem.css';
 
+function SongPuzzle(){
+    return(
+        <div>
+            <br></br>
+            <p>
+                
+            You're my journey, you're my destination<br />
+            You're my divinity, you're in every prayer of mine.<br /> <br />
+            Your absence tests me.<br /><br />
+            It's my passion to become worthy of you.<br />
+            This soul is mine, this body is mine<br />
+            They're not mine as much as they're yours.<br /><br />
+            The pain of separation<br />
+            If I've got it from you, then it must be my prize.<br /> <br />
+            My sky searches for your horizon<br />
+            If not on the earth, then meet me in the skies.<br /><br />
+            I agree that with your presence<br />
+            My life is bereaved<br />
+            Any alternate way of living<br />
+            My heart doesn't want to believe.<br /><br />
+            I want you with so much devotion<br />
+            You can remain unaware, if you wish to.<br /><br />
+            
+            The journey towards you is prettier than the destination<br />
+            You make everything in my life complete<br />
+            Even left incomplete, my passion for you is still unwaivered.<br />
+            O my heart, it's hard to live without you<br />
+            </p>
+            <br />
+            <hr />
+            <br />
+            <p>
+                I would have told you multiple times about the story of Orion. But there was one mythological aspect of Orion that I never told you about. It was the story of Artemis and Orion. Artemis was the goddess of the hunt and the moon. She was also the protector of the young. Orion was a giant huntsman whom Artemis loved. Being tricked by Artermis' brother, Artemis ends up killing Orion. Artemis was devastated and she asked Zeus to bring him back. Zeus did so by placing him in the sky as a constellation. The constellation of Orion is known as the warrior.
+                It is said that these constellations still live and breathe life in them. Sometimes I wonder if Orion ever wanted to say something to Artemis when he was placed in the sky. Maybe he did. Maybe he didn't. But what if he did? What would he say?
+                <br></br>
+                The pain of separation<br />
+                <br></br>
+                So I wondered if I was Orion and you were my Artemis because there hasn't been a day where I haven't wished for your presence. And that is why I wrote that. Even though we are so far apart that hasn't stopped me from wanting you as you still lived in the same apartment.
+                
+            </p>
+            <p>
+            <br />
+            A small hint, you might want to revisit the box that was given to you. You might find something more in it.
+            </p>
+        </div>
+    )
+}
+
 function Cipher(){
 
 
     const [key, setKey] = useState();
+    let originalKey = "orion"
 
-    let encodedText = "PA DHZ AOPZ KHF AOHA P MPYZA TLA FVB. P KVU'A RUVD DOF IBA P ZAPSS YLTLTILY TF MPYZA APTL PU PZAHUIBS DPAO LEAYLTL CPCPK KLAHPS. P AOVBNOA AOHA PZAHUIBS LUAYHUJLK TL ZV TBJO AOHA P JHU'A NLA PA VBA VM TF OLHK. IBA AOL AYBAO PZ, P KVU'A YLTLTILY TBJO VM AOL AYPW. AOL VUSF AOPUN P YLTLTILY PU KLAHPS, PZ AOL APTL P ZWLUA DPAO FVB. P KVU'A RUVD OVD IBA LHJO HUK LCLYF KLAHPS FVB ZHPK VY KPK DPAO TL QBZA NLAZ LAJOLK ZV JSLHYSF PU TF IYHPU P QBZA JHU'A MVYNLA PA. DOLU P DHZ OLYL PU HBNBZA, AOL VUSF AOPUN P YLTLTILY JSLHYSF PZ AOL PJL JYLHT ZOVW DL TLA BW HA. P YLTLTILY DL OHK H ZJVVW VM PJL JYLHT LHJO MPYZA HUK AOLU OHK AOL JOPJRLU IYLHZA KLZZLYA. P YLTLTILY LHJO ZLJVUK VM AOL APTL P ZWLUA DPAO FVB LCLY ZV JSLHYSF. P KVU'A RUVD DOHA P KPK ILMVYL AOHA, P KVU'A RUVD DOHA P KPK HMALY AOHA!!! PA'Z ZBJO H ISBY. P YLTLTILY LCLYFAOPUN AOHA OHWWLULK AOL ULEA KHF ILJHBZL P ZWLUA AOL LUAPYL KHF DPAO FVB. MYVT OHCPUN IYLHRMHZA AV JSPTIPUN APSS WPLYYL SVAAP HUK YBUUPUN AV JHAJO AOL MLYYF HUK AOLU OLHKPUN IHJR HUK TL AHRPUN H JHI IHJR AV PZA. P QBZA YLTLTILY AOL APTL P ZWLUA DPAO FVB. AOL VUSF YLHZVU DOF P YLTLTILY AOL KLJLTILY AYPW PU KLAHPS DHZ ILJHBZL FVB DLYL AOLYL. P AOPUR P ZOVBSK OHCL ZHPK PA ILMVYL IBA P KPKU'A SVCL PZAHUIBS ILJHBZL VM AOL JPAF. P SVCLK PA VUSF ILJHBZL FVB DLYL AOLYL. HUK P SVCLK LCLYF ZLJVUK P ZWLUK DPAO FVB. P DVBSK MPUK HUF LEJBZL, HUF YLHZVU QBZA AV ZWLUK HUVAOLY ZLJVUK DPAO FVB. QBZA AV IL AOLYL DPAO FVB. P JVUZAHUASF MPUK H YLHZVU AV JVTL AV PZAHUIBS ILJHBZL VM FVB. HSDHFZ OHCL HUK HSDHFZ DPSS.";
 
     function handleKeyChange(event){
         setKey(event.target.value)
     }
 
-    function caesarCipher(key){
-        if(key==null){
+    function songcipher(key){
+        if (key==null){
             return ""
         }
 
-        let key_int = Number(key);
-
-        const letters ={
-            "a":0, "b":1, "c":2, "d":3, "e":4, "f":5, "g":6, "h":7, "i":8, "j":9, "k":10, "l":11, "m":12, "n":13, "o":14, "p":15, "q":16, "r":17, "s":18, "t":19, "u":20, "v":21, "w":22, "x":23, "y":24, "z":25,
-            "A":0, "B":1, "C":2, "D":3, "E":4, "F":5, "G":6, "H":7, "I":8, "J":9, "K":10, "L":11, "M":12, "N":13, "O":14, "P":15, "Q":16, "R":17, "S":18, "T":19, "U":20, "V":21, "W":22, "X":23, "Y":24, "Z":25,
-            0: "A", 1: "B", 2: "C", 3: "D", 4: "E", 5: "F", 6: "G", 7: "H", 8: "I", 9: "J", 10: "K", 11: "L", 12: "M", 13: "N", 14: "O", 15: "P", 16: "Q", 17: "R", 18: "S", 19: "T", 20: "U", 21: "V", 22: "W", 23: "X", 24: "Y", 25: "Z"
+        if (key.toLowerCase() === originalKey.toLowerCase()){
+            return <SongPuzzle />
         }
-        let decodedText = "";
-
-        for(let i=0; i<encodedText.length;i++){
-            if(encodedText[i]!==" " && encodedText[i]!=="." && encodedText[i]!=="," && encodedText[i]!=="'" && encodedText[i]!=="!")
-                decodedText += letters[(letters[encodedText[i]]+key_int)%26]
-            else
-                decodedText += encodedText[i]
-
-        }
-
-        return decodedText
     }
 
     return (
         <div className="cipher">
             <br />
             <br />
-            <h1>Caesar Cipher</h1>
+            <h1>Welcome</h1>
             <br />
-
-            <p className='encoded-text'>
-                The Caesar Cipher is a type of substitution cipher where each letter in the plaintext is 'shifted' a certain number of places down the alphabet. 
-            </p>
 
             <br />
             <h3>
-                Encoded Message
+                Message
             </h3>
-            <p className='encoded-text'>
-                {encodedText}
-            </p>
-            <br />
-            <br />
-            <h3>Enter the Key</h3>
-            <input value={key} onChange={handleKeyChange} width="100%" placeholder='Enter the Key to decode the message' />
 
-            <div className="cipher-output">
+            <div className="encoded-text">
                 <br />
                 <br />
-                <h3>Decoded Message</h3>
                 <p>
-                    {caesarCipher(key)}
+                    Hello there Merve! Welcome to the platform where you will be going through a series of puzzles. If you are reading this then you must have found the QR code present in the box given to you. As stated before you will be going through around 6 puzzles in total. I apologize in advance to put you through this as you must have realized now, I'm terrible at articulating my words. 
+                    You managed to crack and get the first QR code. You will see that alongside that you are also presented with a letter.
+                    Keep track of them as they will be useful at a later stage :P.
                 </p>
-
+                <p>
+                    As for your first message, let's start with an easy one. The hint for the key is:  The constellation that represents the warrior.
+                </p>
                 <br />
                 <br />
             </div>
+
+            <h3>Enter the Key</h3>
+            <input value={key} onChange={handleKeyChange} width="100%" placeholder='Enter the Key to decode the message' />
+            <br></br>
+            <br></br>
+            <div className='cipher-output'>
+                {songcipher(key)}
+            </div>
+            <br />
+            <br />
         </div>
     )
 }

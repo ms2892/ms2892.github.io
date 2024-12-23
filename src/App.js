@@ -14,10 +14,12 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/experienceDisplay" element={<ExperienceDisplay />} />
-        {/* <Route path="/puzzle_one" element={<Poem />} /> */}
-        {/* <Route path="/puzzle_one" element={<Cipher />} />
-        <Route path="/puzzle_two" element={<Vernam />} />
-        <Route path="/puzzle_three" element={<RailFence />} /> */}
+        <Route path="/3104ca20" element={<Cipher />} />
+        <Route path="/40c8f313" element={<Vernam />} />
+        <Route path="/95e0227a" element={<Cipher />} />
+        <Route path="/9c861abc" element={<Cipher />} />
+        <Route path='/58baa610' element={<Cipher />} />
+        <Route path="/c9eb9e55" element={<Cipher />} />
       </Routes>
     </Router>
   );
