@@ -7,6 +7,8 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ExperienceDisplay from './single_page_application/components/experience/experiencedisplay';
 import Vernam from './single_page_application/merve_puzzles/vernam.js';
 import RailFence from './single_page_application/merve_puzzles/railfence.js';
+import Columnar from './single_page_application/merve_puzzles/columnar.js';
+import Merve from './single_page_application/merve_puzzles/merve.js';
 
 function App() {
   return (
@@ -16,10 +18,9 @@ function App() {
         <Route path="/experienceDisplay" element={<ExperienceDisplay />} />
         <Route path="/3104ca20" element={<Cipher />} />
         <Route path="/40c8f313" element={<Vernam />} />
-        <Route path="/95e0227a" element={<Cipher />} />
-        <Route path="/9c861abc" element={<Cipher />} />
-        <Route path='/58baa610' element={<Cipher />} />
-        <Route path="/c9eb9e55" element={<Cipher />} />
+        <Route path="/95e0227a" element={<RailFence />} />
+        <Route path="/9c861abc" element={<Columnar />} />
+        <Route path='/58baa610' element={<Merve />} />
       </Routes>
     </Router>
   );

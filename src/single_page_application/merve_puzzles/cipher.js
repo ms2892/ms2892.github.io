@@ -12,7 +12,7 @@ function SongPuzzle(){
             You're my divinity, you're in every prayer of mine.<br /> <br />
             Your absence tests me.<br /><br />
             It's my passion to become worthy of you.<br />
-            This soul is mine, this body is mine<br />
+            This soul of mine, this body of mine<br />
             They're not mine as much as they're yours.<br /><br />
             The pain of separation<br />
             If I've got it from you, then it must be my prize.<br /> <br />
