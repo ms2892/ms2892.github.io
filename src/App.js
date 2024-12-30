@@ -9,6 +9,7 @@ import Vernam from './single_page_application/merve_puzzles/vernam.js';
 import RailFence from './single_page_application/merve_puzzles/railfence.js';
 import Columnar from './single_page_application/merve_puzzles/columnar.js';
 import Merve from './single_page_application/merve_puzzles/merve.js';
+import Final from './single_page_application/merve_puzzles/final.js'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/95e0227a" element={<RailFence />} />
         <Route path="/9c861abc" element={<Columnar />} />
         <Route path='/58baa610' element={<Merve />} />
+        <Route path='/c9eb9e55' element={<Final />} />
       </Routes>
     </Router>
   );
